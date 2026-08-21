@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: anarinsk.github.io/lie-qz
+  baseUrl: www.lostineconomics.com/lie-qz
   ignorePatterns:
     - private
     - templates
