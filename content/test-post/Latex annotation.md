@@ -29,7 +29,15 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1$$
 
 ### 급수 및 테일러 전개 (Summation & Series)
 
+- 두가지 다른 타입의 블록 수식? 
+	- 옵시디언 상에서는 차이가 없다. 
+	- 웹으로 렌더링된 상태는 다를까? 
+
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots$$
+
+$$
+e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
+$$
 
 ### 행렬 연산 (Matrices)
 
