@@ -58,11 +58,48 @@ export default (() => {
           </>
         )}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link
+          rel="preload"
+          href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (() => {
+                if (!("fonts" in document)) return
+
+                const rerenderGraph = () => {
+                  for (const delay of [0, 250, 1000]) {
+                    window.setTimeout(() => {
+                      document.dispatchEvent(new CustomEvent("themechange"))
+                    }, delay)
+                  }
+                }
+
+                document.fonts
+                  .load('1em "SUIT Variable"', "한글")
+                  .then(() => document.fonts.ready)
+                  .then(() => {
+                    if (document.readyState === "loading") {
+                      document.addEventListener("DOMContentLoaded", rerenderGraph, { once: true })
+                    } else {
+                      rerenderGraph()
+                    }
+                  })
+                  .catch(() => {})
+              })()
+            `,
+          }}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
