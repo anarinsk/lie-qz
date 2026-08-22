@@ -1,0 +1,56 @@
+{
+  "name": "recent-notes",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local Recent Notes wrapper tuned for blog posts.",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "peerDependencies": {
+    "@quartz-community/recent-notes": "^0.1.0"
+  },
+  "quartz": {
+    "name": "recent-notes",
+    "displayName": "Recent Notes",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 50,
+    "defaultEnabled": false,
+    "defaultOptions": {
+      "limit": 5,
+      "linkToMore": false,
+      "showTags": true,
+      "hideTagPages": true,
+      "hideFolderPages": true
+    },
+    "components": {
+      "RecentNotes": {
+        "displayName": "Recent Notes",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 50
+      }
+    },
+    "optionSchema": {
+      "title": {
+        "type": "string"
+      },
+      "limit": {
+        "type": "number"
+      },
+      "linkToMore": {
+        "type": "string"
+      },
+      "showTags": {
+        "type": "boolean"
+      },
+      "hideTagPages": {
+        "type": "boolean"
+      },
+      "hideFolderPages": {
+        "type": "boolean"
+      }
+    }
+  }
+}

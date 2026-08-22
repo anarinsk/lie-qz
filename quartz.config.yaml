@@ -236,7 +236,7 @@ plugins:
     layout:
       position: footer
       priority: 50
-  - source: "@quartz-community/recent-notes"
+  - source: "./plugins/recent-notes"
     enabled: true
     options:
       limit: 5
