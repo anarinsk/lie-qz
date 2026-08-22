@@ -33,24 +33,29 @@ $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}
 
 ### 행렬 연산 (Matrices)
 
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 a & b \\
 c & d
 \end{bmatrix}^{-1} = \frac{1}{ad - bc} \begin{bmatrix}
 d & -b \\
 -c & a
-\end{bmatrix}$$
-
+\end{bmatrix}
+$$
 
 ### 조건부 함수 (Piecewise / Cases)
 
-$$f(x) = \begin{cases} 
+$$
+f(x) = \begin{cases} 
 \frac{1}{x} & \text{if } x \neq 0 \\ 
 0 & \text{if } x = 0 
-\end{cases}$$
+\end{cases}
+$$
 
 ### 맥스웰 방정식 (Differential Forms / Vector Calculus)
 
-$$\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}, \quad \nabla \times \mathbf{B} = \mu_0 \left( \mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right)$$
+$$
+\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}, \quad \nabla \times \mathbf{B} = \mu_0 \left( \mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right)
+$$
 
 
