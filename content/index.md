@@ -12,3 +12,8 @@ My world is a sort of LIE, Lost In Economics.
 
 # History of LIE 
 
+- [v4](https://anarinsk.github.io/lie-qz/) built with [Quartz](https://quartz.jzhao.xyz/) and [Github Pages](https://pages.github.com/) ⛧
+ - [v3](https://anarinsk.github.io/lostineconomics_quarto/) built with [Quarto](https://quarto.org/) and [Github Pages](https://pages.github.com/) 
+- [v2](https://anarinsk.github.io/lostineconomics-v2-1/) built with [fastpages](https://github.com/fastai/fastpages) and [Github Pages](https://pages.github.com/)
+- [v1](https://anarinsk.github.io/lostineconomics-v1/) built with markdown and [Github](https://www.github.com/)
+- [v0](https://lostineconomics.netlify.com/) built with [BlogDown](https://bookdown.org/yihui/blogdown) and [Github Pages](https://pages.github.com/)
