@@ -15,9 +15,18 @@
   --codeFont: "Google Sans Code", "SFMono-Regular", Consolas, monospace;
 }
 
+body,
+button,
+input,
+textarea,
+select {
+  font-size: 0.94rem;
+}
+
 pre,
 code {
   font-family: var(--codeFont);
+  font-size: 1em;
 }
 
 .note-properties,
