@@ -19,3 +19,11 @@ pre,
 code {
   font-family: var(--codeFont);
 }
+
+.note-properties,
+.explorer-content li:has(> a[href="/lie-qz"]),
+.explorer-content li:has(> a[href="/lie-qz/"]),
+.explorer-content li:has(> a[href="/lie-qz/index"]),
+.explorer-content li:has(> a[href="/lie-qz/index.html"]) {
+  display: none;
+}
