@@ -1,0 +1,28 @@
+{
+  "name": "show-link",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sidebar link to SHOW of anari.",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "show-link",
+    "displayName": "SHOW Link",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "components": {
+      "ShowLink": {
+        "displayName": "SHOW Link",
+        "description": "External sidebar link to SHOW of anari.",
+        "version": "1.0.0",
+        "defaultPosition": "left",
+        "defaultPriority": 90
+      }
+    }
+  }
+}

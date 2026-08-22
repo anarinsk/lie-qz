@@ -213,6 +213,11 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+  - source: "./plugins/show-link"
+    enabled: true
+    layout:
+      position: left
+      priority: 90
   - source: "@quartz-community/breadcrumbs"
     enabled: true
     layout:
