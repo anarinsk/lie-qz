@@ -3,10 +3,10 @@ configuration:
   pageTitle: lost-in-economics
   pageTitleSuffix: ""
   enableSPA: true
-  enablePopovers: true
+  enablePopovers: false
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ko-KR
   baseUrl: www.lostineconomics.com/lie-qz
   ignorePatterns:
     - private
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: SUIT Variable
+      body: SUIT Variable
+      code: Google Sans Code
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#ffffff"
+        lightgray: "#eeeeee"
+        gray: "#a3a3a3"
+        darkgray: "#444444"
+        dark: "#111111"
+        secondary: "#0f766e"
+        tertiary: "#64748b"
+        highlight: rgba(15, 118, 110, 0.10)
+        textHighlight: "#fff3a3"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
+        light: "#111111"
+        lightgray: "#262626"
+        gray: "#737373"
         darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        dark: "#f5f5f5"
+        secondary: "#5eead4"
+        tertiary: "#94a3b8"
+        highlight: rgba(94, 234, 212, 0.12)
+        textHighlight: "#665c00"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -124,7 +124,7 @@ plugins:
     options: {}
     order: 45
   - source: "@quartz-community/encrypted-pages"
-    enabled: true
+    enabled: false
     options:
       iterations: 600000
       passwordField: password
@@ -147,11 +147,11 @@ plugins:
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/cname"
     enabled: false
   - source: "@quartz-community/canvas-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/content-page"
     enabled: true
   - source: "@quartz-community/folder-page"
@@ -164,7 +164,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -208,7 +208,7 @@ plugins:
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
@@ -247,11 +247,11 @@ plugins:
       priority: 25
       display: mobile-only
   - source: "@quartz-community/bases-page"
-    enabled: true
+    enabled: false
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
-    enabled: true
+    enabled: false
     options:
       includeAll: false
       includedProperties:
@@ -268,7 +268,7 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
