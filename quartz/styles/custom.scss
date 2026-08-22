@@ -35,3 +35,7 @@ code {
 .explorer-content li:has(> a[href="/index.html"]) {
   display: none;
 }
+
+.recent-notes > h3 {
+  display: none;
+}
