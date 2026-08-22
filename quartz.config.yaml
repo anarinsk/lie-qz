@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: www.lostineconomics.com/lie-qz
+  baseUrl: blog.lostineconomics.com
   ignorePatterns:
     - private
     - templates
