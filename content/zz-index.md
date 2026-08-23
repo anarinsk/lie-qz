@@ -17,3 +17,11 @@ My world is a sort of LIE, Lost In Economics.
 - [v2](https://anarinsk.github.io/lostineconomics-v2-1/) built with [fastpages](https://github.com/fastai/fastpages) and [Github Pages](https://pages.github.com/)
 - [v1](https://anarinsk.github.io/lostineconomics-v1/) built with markdown and [Github](https://www.github.com/)
 - [v0](https://lostineconomics.netlify.com/) built with [BlogDown](https://bookdown.org/yihui/blogdown) and [Github Pages](https://pages.github.com/)
+
+## Side Projects 
+
+###  [SHOW of anari](https://show.lostineconomics.com/)
+
+- 본 영화와 드라마를 기록하는 공간 
+- 대단한 무엇보다는 무엇을 봤는지를 기록하는 곳 
+- 연말 결산에서 최근에 본 것으로 쏠리는 바이어스를 줄이기 위한 장치 
