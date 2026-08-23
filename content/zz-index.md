@@ -1,7 +1,7 @@
 ---
 title: Index
 ---
-# lostineconomics v4
+# lostineconomics, v4
 
 **My world is a sort of LIE, Lost In Economics.**
 
