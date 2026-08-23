@@ -40,7 +40,7 @@ draft: false
 
 내부 문서 링크도 가능하면 공개 URL 구조를 고려해 작성합니다.
 
-[v4, 시작합니다](v4,%20시작합니다.md)
+[Hello, World!](Hello,%20World!.md)
 
 ## 인용
 
