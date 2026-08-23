@@ -12,7 +12,7 @@ draft: false
 - Computer Modern 역시 좋은 것 같다. 
 - 더 좋은 폰트를 찾으면 바꾸자. 
 - 테스트해본 폰트 
-	- [ x] Google Sans Math  
+	- [x] Google Sans Math : 뭔가 투박하다. 
 
 ## 1. 인라인 수식 (Inline Math)
 * 질량-에너지 등가 원리: $E = mc^2$
