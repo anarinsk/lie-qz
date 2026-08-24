@@ -9,47 +9,10 @@
     format("woff2-variations");
 }
 
-@font-face {
-  font-family: "FiraGO";
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/fontsource-firago@4.0.0/files/firago-all-400-normal.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "FiraGO";
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/fontsource-firago@4.0.0/files/firago-all-500-normal.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "FiraGO";
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/fontsource-firago@4.0.0/files/firago-all-600-normal.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-family: "FiraGO";
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/npm/fontsource-firago@4.0.0/files/firago-all-700-normal.woff2")
-    format("woff2");
-}
-
 :root {
   --bodyFont: "SUIT Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --headerFont: "SUIT Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --codeFont: "Google Sans Code", "SFMono-Regular", Consolas, monospace;
-  --mathFont: "FiraGO", var(--bodyFont);
 }
 
 body,
@@ -64,13 +27,6 @@ pre,
 code {
   font-family: var(--codeFont);
   font-size: 1em;
-}
-
-.katex,
-.katex *,
-.math,
-math {
-  font-family: var(--mathFont) !important;
 }
 
 .note-properties,
