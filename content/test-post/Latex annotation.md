@@ -74,4 +74,10 @@ $$
 \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}, \quad \nabla \times \mathbf{B} = \mu_0 \left( \mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right)
 $$
 
+## KaTeX + STIX Two Math의 이슈 
 
+- 기호들이 깨지는 것 같다. 테스트해보자. 
+
+$$
+\neq, \notin, \nleq 
+$$
