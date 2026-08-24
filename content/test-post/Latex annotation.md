@@ -82,12 +82,12 @@ $$
 \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}, \quad \nabla \times \mathbf{B} = \mu_0 \left( \mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right)
 $$
 
-## KaTeX + STIX Two Math의 이슈 
+## KaTeX + STIX Two Math 테스트
 
-- 기호들이 깨지는 것 같다. 테스트해보자. 
+- 관계 연산자는 KaTeX 기본 폰트를 유지하고, 일반 수식 문자에 STIX Two를 적용한다.
 
 $$
 \neq, \notin, \nleq, \leq, \geq, \in, \equiv, \nsim, \not\equiv
 $$
 
-- `\neq`, `\not\equiv`  깨진다. 왜일까... 
+- `\neq`, `\not\equiv`처럼 겹침 기호로 조합되는 부정 관계 연산자가 깨지지 않아야 한다.
