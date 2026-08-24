@@ -63,7 +63,7 @@ $$
 
 $$
 f(x) = \begin{cases} 
-\frac{1}{x} & \text{if } x \ne 0 \\ 
+\frac{1}{x} & \text{if } x \neq 0 \\ 
 0 & \text{if } x = 0 
 \end{cases}
 $$
