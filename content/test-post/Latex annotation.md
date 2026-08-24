@@ -68,6 +68,13 @@ f(x) = \begin{cases}
 \end{cases}
 $$
 
+$$
+f(x) = \begin{cases} 
+\frac{1}{x} & \text{if } x ≠ 0 \\ 
+0 & \text{if } x = 0 
+\end{cases}
+$$
+
 ### 맥스웰 방정식 (Differential Forms / Vector Calculus)
 
 $$
@@ -81,3 +88,5 @@ $$
 $$
 \neq, \notin, \nleq 
 $$
+
+- `\neq` 만 깨진다. 왜일까... 
