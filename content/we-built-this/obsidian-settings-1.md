@@ -1,7 +1,7 @@
 ---
-title: 옵시디언 청부파일 설정 
+title: 옵시디언 첨부파일 설정
 date: 2026-08-24
-description: 하위 폴더로 해두자. 
+description: 하위 폴더로 해두자.
 tags:
   - blog
   - dev
