@@ -70,7 +70,7 @@ $$
 
 $$
 f(x) = \begin{cases} 
-\frac{1}{x} & \text{if } x ≠ 0 \\ 
+\frac{1}{x} & \text{if } x \text{ ≠ } 0 \\ 
 0 & \text{if } x = 0 
 \end{cases}
 $$
@@ -86,7 +86,7 @@ $$
 - 기호들이 깨지는 것 같다. 테스트해보자. 
 
 $$
-\neq, \notin, \nleq 
+\neq, \notin, \nleq, \leq, \geq, \in
 $$
 
 - `\neq` 만 깨진다. 왜일까... 
