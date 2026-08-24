@@ -10,11 +10,38 @@
 }
 
 @font-face {
-  font-family: "STIX Two Math";
+  font-family: "Inter";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("https://fonts.gstatic.com/s/stixtwomath/v12/pONg1hwwL_6M9EkZySr_yteUi1o.ttf")
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf")
     format("truetype");
 }
 
@@ -22,7 +49,7 @@
   --bodyFont: "SUIT Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --headerFont: "SUIT Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --codeFont: "Google Sans Code", "SFMono-Regular", Consolas, monospace;
-  --mathFont: "STIX Two Math", var(--bodyFont);
+  --mathFont: "Inter", var(--bodyFont);
 }
 
 body,
