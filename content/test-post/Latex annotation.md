@@ -1,7 +1,7 @@
 ---
-title: "수식은 잘 나오냐?"
+title: 수식은 잘 나오냐?
 date: 2026-08-22
-description: "$\LaTeX$ 수식 표기 확인"
+description: TeX 수식 표기 확인
 tags:
   - latex
   - math
