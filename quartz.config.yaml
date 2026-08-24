@@ -232,6 +232,11 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  - source: "./plugins/image-lightbox"
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 99
   - source: "@quartz-community/footer"
     enabled: true
     options:
