@@ -4,7 +4,7 @@ date: 2026-08-25
 description: GPM, OPM, NPM
 tags:
   - real-world-economy
-  - account
+  - accounting
 draft: false
 ---
 
