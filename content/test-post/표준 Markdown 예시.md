@@ -63,8 +63,8 @@ git status
 ```
 
 ```js
-const title = "표준 Markdown 예시";
-console.log(title);
+const title = "표준 Markdown 예시"
+console.log(title)
 ```
 
 ## 체크리스트

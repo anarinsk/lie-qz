@@ -1,0 +1,21 @@
+{
+  "name": "markdown-image-size",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Adds Obsidian-style image dimensions to standard Markdown images.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.1.0"
+  },
+  "quartz": {
+    "name": "markdown-image-size",
+    "displayName": "Markdown Image Size",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 35,
+    "defaultEnabled": true
+  }
+}
