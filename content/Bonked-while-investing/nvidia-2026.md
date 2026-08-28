@@ -1,5 +1,5 @@
 ---
-title: nVidia의 매출원가는 어떤 것들로 되어 있을까?
+title: NVIDIA의 매출원가는 어떤 것들로 되어 있을까?
 date: 2026-08-28
 description: 엔비디아의 매출원가가 궁금했다
 tags:
