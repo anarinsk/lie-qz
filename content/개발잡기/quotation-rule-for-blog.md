@@ -46,6 +46,6 @@ draft: false
    - **PowerToys 키보드 관리자:** 단축키 맵핑(예: `Alt + [` → `『`) 설정
    - 매핑되는 항목을 유심히 보자. 설정 등에 살짝 유의하면 된다. 
 
-![|center|400](50-Public/blog/we-built-this/assets/08754d8f208514715519e3b4f141b035_MD5.jpg)
+![|center|400](08754d8f208514715519e3b4f141b035_MD5.jpg)
 
 

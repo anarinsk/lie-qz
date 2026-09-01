@@ -78,7 +78,7 @@ console.log(title);
 
 표준 Markdown 이미지 문법에서 alt 뒤에 `|너비`를 붙이면 이미지 너비가 px 단위로 지정됩니다.
 
-![center|100](../we-built-this/assets/Pasted%20image%2020260824164253.png)
+![center|100](Pasted%20image%2020260824164253.png)
 
 alt와 높이를 함께 쓰려면 `![설명 center|100x120](image.png)`처럼 작성합니다.
 
