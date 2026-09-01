@@ -1,0 +1,18 @@
+{
+  "name": "content-index-dates",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generates Quartz sitemap, RSS, and contentIndex.json with page dates.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "quartz": {
+    "name": "content-index-dates",
+    "displayName": "Content Index With Dates",
+    "category": "emitter",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "defaultOrder": 46,
+    "defaultEnabled": true
+  }
+}

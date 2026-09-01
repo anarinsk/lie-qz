@@ -142,11 +142,18 @@ plugins:
   - source: "@quartz-community/alias-redirects"
     enabled: true
   - source: "@quartz-community/content-index"
+    enabled: false
+    options:
+      enableSiteMap: true
+      enableRSS: true
+      rssSlug: rss
+  - source: "./plugins/content-index-dates"
     enabled: true
     options:
       enableSiteMap: true
       enableRSS: true
       rssSlug: rss
+    order: 46
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
@@ -163,6 +170,31 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      sortFn: |-
+        (a, b) => {
+          const byTitle = (a.displayName || "").localeCompare(b.displayName || "", undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+
+          if (a.isFolder !== b.isFolder) {
+            return a.isFolder ? -1 : 1
+          }
+
+          if (a.isFolder && b.isFolder) {
+            return byTitle
+          }
+
+          const getTime = (node) => {
+            const value = node.data?.date
+            const time = value ? new Date(value).getTime() : 0
+            return Number.isFinite(time) ? time : 0
+          }
+
+          const byDate = getTime(b) - getTime(a)
+          return byDate || byTitle
+        }
     layout:
       position: left
       priority: 50
