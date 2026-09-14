@@ -14,4 +14,4 @@ draft: false
 
 요약은 Gemini Notebook으로 생성한 PDF를 참고하자. 옆에 두고 보기 좋더라. 
 
-![](50-Public/blog/%ED%88%AC%EC%9E%90%EC%9E%A1%EA%B8%B0/assets/35c257dd299fd5f88407f4cf232a8063_MD5.pdf)
+![](/assets/35c257dd299fd5f88407f4cf232a8063_MD5.pdf)
