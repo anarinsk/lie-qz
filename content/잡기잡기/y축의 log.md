@@ -5,7 +5,7 @@ description: y축의 로그를 해석한다.
 tags:
   - math
   - economics
-draft: true
+draft: false
 ---
 
 ## tl;dr 
