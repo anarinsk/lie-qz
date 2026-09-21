@@ -1,5 +1,5 @@
 ---
-title: Cocvered Interest Parity
+title: Covered Interest Parity
 date: 2026-09-21
 description: 개념 정리
 tags:
