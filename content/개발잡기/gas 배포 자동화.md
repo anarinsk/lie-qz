@@ -13,4 +13,4 @@ draft: false
 
 [clasp](https://github.com/google/CLASP)는 Command Line Apps Script Projects의 약자로 구글의 공식 앱이다. CLI를 통해서 앱스크립트를 작성, 관리, 배포할 수 있게 해준다. 로컬과 연동해도 되지만 어차피 실행에는 많은 품이 들지 않으니 Github Actions에 깔아서 활용해도 된다. 공식 앱이니 만큼 크리덴셜 문제도 없다. 
 
-github 로컬 폴더를 인공지능에 물려 놓고 `.gs` 파일들을 개발한다. 그리고 푸시하면 끝이다. 
+github 로컬 폴더를 인공지능에 물려 놓고 `.gs` 파일들을 개발한다. 그리고 푸시하면 끝이다.  
