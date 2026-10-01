@@ -1,6 +1,6 @@
 ---
 title: 조직에 관한 쓰레기통 이론
-date: 2026-09-23
+date: 2026-10-01
 description: 조직 내 의사결정은 어떻게 이루어지는가?
 tags:
   - organization
