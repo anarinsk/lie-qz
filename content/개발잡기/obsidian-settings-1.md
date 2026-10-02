@@ -14,4 +14,4 @@ draft: false
 
 `설정 > 파일 및 링크`
 
-![](Pasted%20image%2020260824165922.png)
+![|center|400](Pasted%20image%2020260824165922.png)
