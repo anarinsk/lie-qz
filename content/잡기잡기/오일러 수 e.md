@@ -1,11 +1,11 @@
 ---
 title: 오일러 수 e
 date: 2026-10-05
-description: 오일러 수를 최대한 직관적으로 이해해보자. 
+description: 오일러 수를 최대한 직관적으로 이해해보자.
 tags:
   - math
   - euler
-draft: true
+draft: false
 ---
 
 오일러 수, $e$, 에 관해서 한번 사적으로 쭉 정리해보려고 한다. 사적인 정리이며 어떤 공익적 목적도 없다! 
