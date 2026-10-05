@@ -137,11 +137,15 @@ e^{i\pi}+1=0 $$
 
 드무아브르 공식 (De Moivre's formula)도 그대로 도출된다. 
 
-$$ (\cos\theta+i\sin\theta)^n = \cos(n\theta)+i\sin(n\theta) $$
+$$ 
+(\cos\theta+i\sin\theta)^n = \cos(n\theta)+i\sin(n\theta) 
+$$
 
 오일러 공식을 이용하면
 
-$$ (e^{i\theta})^n=e^{in\theta} $$
+$$
+(e^{i \theta})^n=e^{in \theta}
+$$
 
 
 ## 이해 방식 
