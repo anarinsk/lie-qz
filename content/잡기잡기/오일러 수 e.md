@@ -97,21 +97,29 @@ $$ 1 \xrightarrow{\times i} i \xrightarrow{\times i} -1 \xrightarrow{\times i} -
 
 $x$가 라디안이 되는 이유도 분명하다. 복소평면에서 $i$가 되기 위해서는 반시계방향으로 90도, 즉 $\pi$ 만큼 회전해야 한다. 이렇다면 이러한 회전을 연속해서 표현하려면? 여기에 딱 적합한 것이 바로 오일러 공식이다. 
 
-\(e^x\)는 **아주 작은 변화를 계속 누적한 결과**로 볼 수 있다.
+$e^x$는 **아주 작은 변화를 계속 누적한 결과**로 볼 수 있다.
 
-\[ e^x = \lim_{n\to\infty} \left(1+\frac{x}{n}\right)^n \]
+$$
+e^x = \lim_{n\to\infty} \left(1+\frac{x}{n}\right)^n
+$$
 
-여기에 \(x=i\theta\)를 넣으면
+여기에 $x=i\theta$를 넣으면
 
-\[ e^{i\theta} = \lim_{n\to\infty} \left(1+\frac{i\theta}{n}\right)^n \]
+$$
+e^{i\theta} = \lim_{n\to\infty} \left(1+\frac{i\theta}{n}\right)^n
+$$
 
 이다. 각 단계의
 
-\[ 1+\frac{i\theta}{n} \]
+$$ 
+1+\frac{i\theta}{n}
+$$
 
 를 복소평면에서 보면 **아주 조금 위쪽으로 방향을 트는 것**과 비슷하다. 그리고 이는 오일러 공식과 같은 삼각함수의 해석을 지닌다. 
 
-$$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
+$$ 
+e^{i\theta}=\cos(\theta)+i\sin(\theta) 
+$$
 
 ![](assets/complexplane.png)
 
