@@ -25,17 +25,20 @@ $(1 + \frac{1}{365})^{365} \approx 2.7145$
 
 이자 지급 주기를 1초, 1밀리초를 넘어 '찰나의 순간(연속)'으로 무한히 쪼개면 원금은 무한대로 발산하지 않고 특정 상수에 수렴한다. 이 극한값이 바로 $e$이다.  
 
-$$e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n \approx 2.71828$$
+$$
+e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n \approx 2.71828$$
 
 즉, $e$는 '성장률이 100%일 때, 쉬지 않고 매 순간 복리로 증식하면 1단위 시간 뒤에 도달하는 최대 배율'을 뜻한다.
 
 ## 정의 2: $e^x$
 
-$$e^x \equiv \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n$$
+$$
+e^x \equiv \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n$$
 
 $e^x$의 가장 큰 대수적인 특징은 $x$로 미분한 값이 그 자신이라는 것이다. 즉, 
 
-$$\frac{d}{dx}e^x = e^x$$
+$$
+\frac{d}{dx}e^x = e^x$$
 
 이 말의 의미를 조금 더 풀어보자. $x$에 대한 $e^x$의 기울기를 의미한다. x를 어떻게 정의하는지에 따라서 다르겠지만 순간 증가량이라고 봐도 좋고 변화량이라고 봐도 좋을 것이다. 이 변화량이 현재 자신의 값과 일치한다. 즉, 현재 값이 크면 클수록 늘어나는 양도 그만큼 커진다. 이른바 '복리의 원리'라는 걸로 이해하면 되겠다. 매순간 이러한 성장/변화가 발생한다.  
 
@@ -45,11 +48,13 @@ $$\frac{d}{dx}e^x = e^x$$
 
 연이율 $r$을 1년에 $n$번 나누어 복리로 지급하는 경우, $t$년 뒤의 배율은 다음과 같다:  
 
-$$\text{multiple} = \left(1 + \frac{r}{n}\right)^{nt}$$
+$$
+\text{multiple} = \left(1 + \frac{r}{n}\right)^{nt}$$
   
 이자 지급 주기를 찰나의 순간($n \to \infty$)으로 무한히 쪼개면:  
 
-$$\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^{nt} = \lim_{n \to \infty} \left[ \left(1 + \frac{r}{n}\right)^{\frac{n}{r}} \right]^{rt} = e^{rt}$$
+$$
+\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^{nt} = \lim_{n \to \infty} \left[ \left(1 + \frac{r}{n}\right)^{\frac{n}{r}} \right]^{rt} = e^{rt}$$
 
   
 이로 인해 불연속적인 단계(1년, 1달, 1일 단위)가 사라지고, 매 순간 매끄럽게 불어나는 연속 성장 모델이 완성된다.
@@ -60,11 +65,12 @@ $$\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^{nt} = \lim_{n \to \infty} \l
 
 이른바 72의 법칙이란 것이 있다. 성장률이 아주 높지 않을 때 어떤 초기 값이 2배가 되는 데 걸리는 시간을 얻는 어림 셈법이다. 즉, 만일 6%로 경제성장을 한다면 경제가 2배 되는데 걸리는 시간은 대략 12년이다. 이건 어디에서 나왔을까? 원금이 정확히 2배($2P$)가 되는 조건을 세우면 다음과 같다.  
   
-$$P(1 + r)^t = 2P \implies (1 + r)^t = 2$$
+$$
+P(1 + r)^t = 2P \implies (1 + r)^t = 2$$
 
 양변에 자연로그($\ln$)를 취한다.  
 
-$$\ln\left((1 + r)^t\right) = \ln(2)$$
+$\ln\left((1 + r)^t\right) = \ln(2)$
 
 $$t \cdot \ln(1 + r) = \ln(2)$$
   
@@ -93,7 +99,8 @@ $$
 
 왜 허수는 복수평면 위에서의 회전으로 잘 표현이 될까? 허수의 속성 때문이다. 즉, 
 
-$$ 1 \xrightarrow{\times i} i \xrightarrow{\times i} -1 \xrightarrow{\times i} -i \xrightarrow{\times i} 1 $$
+$$ 
+1 \xrightarrow{\times i} i \xrightarrow{\times i} -1 \xrightarrow{\times i} -i \xrightarrow{\times i} 1 $$
 
 $x$가 라디안이 되는 이유도 분명하다. 복소평면에서 $i$가 되기 위해서는 반시계방향으로 90도, 즉 $\pi$ 만큼 회전해야 한다. 이렇다면 이러한 회전을 연속해서 표현하려면? 여기에 딱 적합한 것이 바로 오일러 공식이다. 
 
@@ -125,7 +132,8 @@ $$
 
 혁명적인 공식이 아닌가? 삼각함수를 대수적으로 완벽하게 연결한다. 이제 삼각함수를 미분할 수 있게 된 것이다. 오일러 공식에 \(\theta=\pi\)를 넣으면 오일러 항등식이 나온다. 수학의 가장 유명한 초월수 오일러수와 파이가 등장하고 1, 0이 모두 등장하는 항등식이다. 
 
-$$ e^{i\pi}+1=0 $$
+$$ 
+e^{i\pi}+1=0 $$
 
 드무아브르 공식 (De Moivre's formula)도 그대로 도출된다. 
 
