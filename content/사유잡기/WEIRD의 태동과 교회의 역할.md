@@ -1,6 +1,6 @@
 ---
 title: 교회, 문화의 진화 그리고 경제성장
-date: 2026-09-23
+date: 2026-10-06
 description: 교회의 규칙 변화는 어떻게 경제성장을 추동했는가?
 tags:
   - cultural-evolution
