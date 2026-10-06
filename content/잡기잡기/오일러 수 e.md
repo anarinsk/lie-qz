@@ -55,7 +55,6 @@ $$
 $$
 \lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^{nt} = \lim_{n \to \infty} \left[ \left(1 + \frac{r}{n}\right)^{\frac{n}{r}} \right]^{rt} = e^{rt}
 $$
-
   
 이로 인해 불연속적인 단계(1년, 1달, 1일 단위)가 사라지고, 매 순간 매끄럽게 불어나는 연속 성장 모델이 완성된다.
 
@@ -87,7 +86,7 @@ $$
 t r \approx \ln(2) \approx 0.693
 $$
 
-$R=100r$이라고 할 때  
+$R=100r$이라고 할 때 , 즉 $R$을 퍼센트로 표기하면, 
 
 $$
 t R = 69.3 \approx 72
