@@ -44,17 +44,16 @@ $$
 \lim_{x \to 0} \frac{\sin x^\circ}{x} = \frac{\pi}{180}
 $$
 
-*미분 공식:** 호도법에서는 $(\sin x)' = \cos x$로 정리되나, 육십분법에서는 $(\sin x^\circ)' = \frac{\pi}{180}\cos x^\circ$가 된다.
+호도법에서는 $(\sin x)' = \cos x$로 정리되나, 육십분법에서는 $(\sin x^\circ)' = \frac{\pi}{180}\cos x^\circ$가 된다.
 
 그리고 테일러 급수 전개시  같이 계수가 정돈된 다항식 전개가 가능해진다.
 
 
 $$
-\sin x = 0 + 1 \cdot x + 0 \cdot \frac{x^2}{2!} + (-1) \cdot \frac{x^3}{3!} + 0 \cdot \frac{x^4}{4!} + 1 \cdot \frac{x^5}{5!} + 0 \cdot \frac{x^6}{6!} + (-1) \cdot \frac{x^7}{7!} + \cdots
-$$
-
-$$
-\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \frac{x^9}{9!} - \cdots
+\begin{aligned}
+\sin x & = 0 + 1 \cdot x + 0 \cdot \frac{x^2}{2!} + (-1) \cdot \frac{x^3}{3!} + 0 \cdot \frac{x^4}{4!} + 1 \cdot \frac{x^5}{5!} +  \cdot \\
+& = x - \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots
+\end{aligned}
 $$ 
 
 1라디안은 원의 고유 성질인 '반지름'을 기준으로 각도를 실수의 영역으로 편입시키고, 고등 수학 및 물리학의 수식을 가장 간결하게 표현하기 위해 확립된 기준이다.
