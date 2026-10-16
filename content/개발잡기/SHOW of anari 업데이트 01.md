@@ -1,5 +1,5 @@
 ---
-title: SHOW of anari 업데이트
+title: SHOW of anari 업데이트 01
 date: 2026-09-19
 description: 영화 목록 업데이트
 tags:
