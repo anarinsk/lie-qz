@@ -77,6 +77,11 @@ plugins:
   - source: "./plugins/markdown-image-size"
     enabled: true
     order: 35
+  - source: "./plugins/mermaid-style"
+    enabled: true
+    options:
+      curve: stepAfter
+    order: 36
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
     order: 40
