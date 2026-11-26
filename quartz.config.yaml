@@ -65,7 +65,7 @@ plugins:
       highlight: true
       wikilinks: true
       callouts: true
-      mermaid: false
+      mermaid: true
       parseTags: true
       parseArrows: true
       parseBlockReferences: true
@@ -77,11 +77,6 @@ plugins:
   - source: "./plugins/markdown-image-size"
     enabled: true
     order: 35
-  - source: "./plugins/mermaid-style"
-    enabled: true
-    options:
-      curve: step
-    order: 36
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
     order: 40
