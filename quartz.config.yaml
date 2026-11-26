@@ -65,7 +65,7 @@ plugins:
       highlight: true
       wikilinks: true
       callouts: true
-      mermaid: true
+      mermaid: false
       parseTags: true
       parseArrows: true
       parseBlockReferences: true
@@ -80,7 +80,7 @@ plugins:
   - source: "./plugins/mermaid-style"
     enabled: true
     options:
-      curve: stepAfter
+      curve: step
     order: 36
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
