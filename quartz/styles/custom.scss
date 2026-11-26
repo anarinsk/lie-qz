@@ -113,8 +113,10 @@ code.mermaid,
 code.mermaid svg,
 code.mermaid svg text,
 code.mermaid svg foreignObject,
+code.mermaid svg foreignObject *,
 #mermaid-container svg,
 #mermaid-container svg text,
-#mermaid-container svg foreignObject {
+#mermaid-container svg foreignObject,
+#mermaid-container svg foreignObject * {
   font-family: var(--bodyFont) !important;
 }
